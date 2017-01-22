@@ -13,7 +13,7 @@ public class BoardDAO {
 	// CRUD 기능 메소드
 	// 글 등록
 	public void insertBoard(BoardVO vo) {
-		System.out.println("===> Mybatis 기반으로 insertBoard() 기능 처리");
+		System.out.println("===> Mybatis 기반으로 insertBoard() 기능 처리!");
 		mybatis.insert("boardDAO.insertBoard", vo);
 	}
 
