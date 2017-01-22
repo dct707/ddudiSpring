@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"   
+                                  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+<typeAliases>
+		<typeAlias alias="board" type="spring.mvc.study.board.BoardVO" />
+		<typeAlias alias="user" type="spring.mvc.study.user.UserVO" />
+</typeAliases>
+
+	
+
+	<mappers>
+		<mapper resource="mappings/board-mapping.xml" />
+		<mapper resource="mappings/user-mapping.xml" />
+	</mappers>
+	
+</configuration>
